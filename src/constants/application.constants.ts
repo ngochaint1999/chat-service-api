@@ -1,0 +1,13 @@
+enum NODE_ENV {
+  DEVELOPMENT = 'development',
+  LOCAL = 'local',
+  PRODUCTION = 'production',
+  TEST = 'test',
+}
+
+enum PUBSUB_SERVICE_PROVIDER {
+  'SOCKET.IO' = 'SOCKET.IO',
+  'GRAPHQL_SUBSCRIPTION' = 'GRAPHQL_SUBSCRIPTION',
+}
+
+export { NODE_ENV, PUBSUB_SERVICE_PROVIDER };
